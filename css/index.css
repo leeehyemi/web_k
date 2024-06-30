@@ -1,0 +1,21 @@
+div {
+    color:white;
+}
+.div-1{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+}
+.div-2{
+    font-size: 12px;
+}
+#div-2{
+    width:300px;
+    height:300px;
+    background-image: url('../img/nn.jpg');
+    background-position: center;
+    background-size: contain; /* 배경이미지 크기를 div에 딱 맞게 설정 */
+    background-repeat: no-repeat;
+    color: black;
+
+}

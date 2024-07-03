@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>contents</title>
+        <style>
+            .div-1 {
+                width: 100%;
+                height: 200px;
+                background-color: gray;
+                display: flex; /* 가로 방향으로 붙어있음 */
+                flex-direction: row;
+                justify-content: center; /*center, flex-end, flex-start, space-around(간격조정)*/
+                align-items: center; /*center, flex-start, flex-end*/
+            }
+            .inner-div{
+                width: 200px;
+                height: 50;
+            }
+
+            .div-2 {
+                width: 500px;
+                height: 400px;
+                background-color: gray;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div-1">
+            <div class="inner-div" style="background-color: lightblue;">
+                div-1 안에 있는 inner-div1
+            </div>
+            <div class="inner-div" style="background-color: green;">
+                div-1 안에 있는 inner-div2
+            </div>
+            <div class="inner-div" style="background-color: orange;">
+                div-1 안에 있는 inner-div3
+            </div>
+        </div>
+
+        <div class="div-2">
+            <div class="inner-div" style="background-color: lightblue;">
+                div-2 안에 있는 inner-div1
+            </div>
+            <div class="inner-div" style="background-color: green;">
+                div-2 안에 있는 inner-div2
+            </div>
+            <div class="inner-div" style="background-color: orange;">
+                div-2 안에 있는 inner-div3
+            </div>
+        </div>
+    </body>
+</html>
